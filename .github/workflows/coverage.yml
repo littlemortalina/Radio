@@ -1,9 +1,10 @@
 name: Java CI
 
 on: 
-   push: branches: [ main, flexible, lombok ] 
-   pull_reguests: [ flexible, lombok ]
-
+   push:
+    branches: [main, flexible, lombok]
+   pull_request:
+    branches: [flexible, lombok]
 jobs:
   build:
     runs-on: ubuntu-latest
