@@ -11,6 +11,7 @@ public class RadioTest {
     public void shouldIncreaseVolumeMax() { //прибавление на максимальной громкости
         radio.setCurrentVolume(100);
         radio.increaseVolume();
+        
 
         assertEquals(100, radio.getCurrentVolume());
     }
